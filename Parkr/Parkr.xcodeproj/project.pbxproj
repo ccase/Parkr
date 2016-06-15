@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		9D1C83111D0F983100709B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C83101D0F983100709B3B /* AppDelegate.swift */; };
 		9D1C83131D0F983100709B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C83121D0F983100709B3B /* ViewController.swift */; };
-		9D1C83161D0F983100709B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C83141D0F983100709B3B /* Main.storyboard */; };
 		9D1C83191D0F983100709B3B /* Parkr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C83171D0F983100709B3B /* Parkr.xcdatamodeld */; };
 		9D1C831B1D0F983100709B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C831A1D0F983100709B3B /* Assets.xcassets */; };
-		9D1C831E1D0F983100709B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C831C1D0F983100709B3B /* LaunchScreen.storyboard */; };
+		9D1C831E1D0F983100709B3B /* RealMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1C831C1D0F983100709B3B /* RealMain.storyboard */; };
 		9D1C83291D0F983100709B3B /* ParkrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C83281D0F983100709B3B /* ParkrTests.swift */; };
 		9D1C83341D0F983100709B3B /* ParkrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1C83331D0F983100709B3B /* ParkrUITests.swift */; };
+		9D8747B61D10D84B007638A9 /* launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8747B51D10D84B007638A9 /* launch.storyboard */; };
+		9DF228821D112B5B008D5E7C /* searchParkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF228811D112B5B008D5E7C /* searchParkTableViewCell.swift */; };
+		9DF228841D112DE4008D5E7C /* searchParkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF228831D112DE4008D5E7C /* searchParkTableViewController.swift */; };
+		9DF228861D112F6E008D5E7C /* parkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF228851D112F6E008D5E7C /* parkingSpot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +41,9 @@
 		9D1C830D1D0F983100709B3B /* Parkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1C83101D0F983100709B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D1C83121D0F983100709B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9D1C83151D0F983100709B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D1C83181D0F983100709B3B /* Parkr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parkr.xcdatamodel; sourceTree = "<group>"; };
 		9D1C831A1D0F983100709B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D1C831D1D0F983100709B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D1C831D1D0F983100709B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/RealMain.storyboard; sourceTree = "<group>"; };
 		9D1C831F1D0F983100709B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D1C83241D0F983100709B3B /* ParkrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1C83281D0F983100709B3B /* ParkrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkrTests.swift; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		9D1C832F1D0F983100709B3B /* ParkrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1C83331D0F983100709B3B /* ParkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkrUITests.swift; sourceTree = "<group>"; };
 		9D1C83351D0F983100709B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8747B51D10D84B007638A9 /* launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launch.storyboard; sourceTree = "<group>"; };
+		9DF228811D112B5B008D5E7C /* searchParkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = searchParkTableViewCell.swift; path = ../searchParkTableViewCell.swift; sourceTree = "<group>"; };
+		9DF228831D112DE4008D5E7C /* searchParkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchParkTableViewController.swift; sourceTree = "<group>"; };
+		9DF228851D112F6E008D5E7C /* parkingSpot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parkingSpot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +105,14 @@
 		9D1C830F1D0F983100709B3B /* Parkr */ = {
 			isa = PBXGroup;
 			children = (
+				9DF228811D112B5B008D5E7C /* searchParkTableViewCell.swift */,
 				9D1C83101D0F983100709B3B /* AppDelegate.swift */,
 				9D1C83121D0F983100709B3B /* ViewController.swift */,
-				9D1C83141D0F983100709B3B /* Main.storyboard */,
 				9D1C831A1D0F983100709B3B /* Assets.xcassets */,
-				9D1C831C1D0F983100709B3B /* LaunchScreen.storyboard */,
+				9D1C831C1D0F983100709B3B /* RealMain.storyboard */,
+				9D8747B51D10D84B007638A9 /* launch.storyboard */,
+				9DF228831D112DE4008D5E7C /* searchParkTableViewController.swift */,
+				9DF228851D112F6E008D5E7C /* parkingSpot.swift */,
 				9D1C831F1D0F983100709B3B /* Info.plist */,
 				9D1C83171D0F983100709B3B /* Parkr.xcdatamodeld */,
 			);
@@ -233,9 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1C831E1D0F983100709B3B /* LaunchScreen.storyboard in Resources */,
+				9D8747B61D10D84B007638A9 /* launch.storyboard in Resources */,
+				9D1C831E1D0F983100709B3B /* RealMain.storyboard in Resources */,
 				9D1C831B1D0F983100709B3B /* Assets.xcassets in Resources */,
-				9D1C83161D0F983100709B3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF228861D112F6E008D5E7C /* parkingSpot.swift in Sources */,
 				9D1C83131D0F983100709B3B /* ViewController.swift in Sources */,
 				9D1C83191D0F983100709B3B /* Parkr.xcdatamodeld in Sources */,
+				9DF228841D112DE4008D5E7C /* searchParkTableViewController.swift in Sources */,
 				9D1C83111D0F983100709B3B /* AppDelegate.swift in Sources */,
+				9DF228821D112B5B008D5E7C /* searchParkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,20 +310,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9D1C83141D0F983100709B3B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D1C83151D0F983100709B3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D1C831C1D0F983100709B3B /* LaunchScreen.storyboard */ = {
+		9D1C831C1D0F983100709B3B /* RealMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9D1C831D1D0F983100709B3B /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = RealMain.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -495,6 +499,7 @@
 				9D1C833A1D0F983100709B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D1C833B1D0F983100709B3B /* Build configuration list for PBXNativeTarget "ParkrTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +508,7 @@
 				9D1C833D1D0F983100709B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D1C833E1D0F983100709B3B /* Build configuration list for PBXNativeTarget "ParkrUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +517,7 @@
 				9D1C83401D0F983100709B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
